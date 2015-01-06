@@ -1,0 +1,80 @@
+form{
+    display:block;
+    clear:both;
+    overflow:hidden;
+}
+form.search{
+
+}
+form label {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5f5c5c;
+    padding:5px;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:block;
+}
+
+form input{
+    font-size: 16px;
+    color: #767676;
+    border: 0;
+    margin: 0;
+    padding: 10px 0 9px 8px;
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 2px;vertical-align: middle;
+    border:solid 1px #d9d9d9;
+}
+
+form input:hover{
+    border-color:#b9b9b9;
+}
+form input:focus{
+    border-color:#4d90fe;
+}
+form.search input[type="search"]{
+    float:left;
+    width:90%;
+}
+
+form.search input[type="submit"]{
+    width:10%;
+    float:left;
+    border:0px;
+    background-color:#575757;
+    color:white;
+    border-left:0px;
+    margin-left:-5px;
+    max-width:60px;
+    padding-top:12px;
+}
+
+form.search input[type="submit"]{
+     background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAm0lEQVRIx+3WwQ2AIAxA0T8KIzgKIzmCIzgKIzAKG+ClTZSEBJIKlx56wBJeqlCk1sqOwGGHHV4OAxHIQH1FBuJvMHA2YBunOSyVKnADQZ4HGWsuWsP6eu9OXvFsDWtFoZMPOscMHl3UHN5W8e5vvGdXD57jadykcwFFxgU4lvVq4JjF7Zr+JG5743zxtPRaFDwBl/8IOOzwkngA8fCX4jI3DSIAAAAASUVORK5C);
+     background-repeat: no-repeat;;
+     background-position: 15px 5px;
+     background-color:orange;
+}
+
+::-webkit-input-placeholder {
+   color: #d2d2d2;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #d2d2d2;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #d2d2d2;
+}
+
+:-ms-input-placeholder {
+   color: #d2d2d2;
+}
