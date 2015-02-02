@@ -11,6 +11,9 @@ router.all("/", function(req, res, next) {
 
 router.get("", homeController.index);
 router.get("/", homeController.index);
+router.get("/progressive", homeController.progressive);
+router.get("/progressive/html", homeController.progressiveHTML);
+router.get("/progressive/json", homeController.progressiveArray);
 
 router.get("/rumblings", rumblingController.index);
 router.get("/rumblings/show/:id", rumblingController.show);
